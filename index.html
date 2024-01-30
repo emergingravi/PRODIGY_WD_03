@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Stopwatch</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+<body>
+    <div class="box">
+        <h2 class="heading">Stopwatch</h2>
+        <h1 id="stopwatch">00:00:00:00</h1>
+        <h3>Hour | Min | Sec | msec</h3>
+        <button onclick="start()" style="background-color: green;">Start</button>
+        <button onclick="stop()" style="background-color: red;">Stop</button>
+        <button onclick="lap()" style="background-color: rgb(37, 142, 88);">Lap</button>
+        <button onclick="Reset()" style="background-color: rgb(46, 130, 220);">Reset</button>
+        <ul id="lapList"></ul>
+    </div>
+</body>
+</html>
